@@ -1,8 +1,8 @@
 pipeline {
     agent any
-    parameters {
+parameters {
 string (
-        name: 'TAG',
+name: 'TAG',
 defaultValue: '@smoke',
 description: 'Select Cucumber tag to excecute'
 )
